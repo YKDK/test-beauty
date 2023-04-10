@@ -110801,7 +110801,8 @@ body {
   -webkit-column-gap: 5%;
      -moz-column-gap: 5%;
           column-gap: 5%;
-  overflow: hidden;
+  position: relative;
+  z-index: 2;
 }
 
 .product-about__sliders {
